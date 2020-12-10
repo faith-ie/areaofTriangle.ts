@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "lib": ["es2016", "DOM"],
+    "module": "commonjs",
+    "outDir": "./app",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2016"
+  },
+  "include": [
+    "./src",
+    "./src/triangle.d.ts"
+  ]
+}
