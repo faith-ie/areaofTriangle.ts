@@ -1,14 +1,13 @@
 {
   "compilerOptions": {
-    "lib": ["es2016", "DOM"],
+    "lib": ["ES2020"],
     "module": "commonjs",
     "outDir": "./app",
     "sourceMap": true,
     "strict": true,
-    "target": "es2016"
+    "target": "ES2020"
   },
   "include": [
-    "./src",
-    "./src/triangle.d.ts"
+    "./src"
   ]
 }
